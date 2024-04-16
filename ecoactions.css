@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  background-image: none;
+  background-color: #3e0266;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding-top: 35px;
+  padding-left: 8%; /* Updated */
+  padding-right: 8%; /* Updated */
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+span {
+  color: #f9004d;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: #1100f9;
+}
+
+.login {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.btn {
+  background: #000;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.content {
+  margin-top: 10%;
+  max-width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.content h2 {
+  font-size: 60px;
+}
+
+.content p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+a {
+  color: #fff;
+}
+
+.link {
+  margin-top: 30px;
+}
+
+.hire {
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  padding: 9px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.link .hire:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* Add styles for your initiatives here */
+.initiative {
+  /* Your styles for each initiative */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #6f6464;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+}
+
+.initiative img {
+  /* Your styles for the initiative images */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.initiative h3 {
+  /* Your styles for the initiative titles */
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #1100f9;
+}
+
+.initiative p {
+  /* Your styles for the initiative descriptions */
+  margin-top: 0.5em;
+  text-align: justify;
+}
+
+/* Styles for the "More Details" button */
+.details-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 10px 20px;
+  background-color: #6b0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.details-button:hover {
+  background-color: #1100f9;
+}

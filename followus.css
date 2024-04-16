@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #2a303b, #635a68);
+  color: #fff;
+  margin: 0;
+  transition: all 0.5s ease;
+}
+
+.container {
+  max-width: 100%;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+.logo a:hover {
+  color: #1100f9;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: #1100f9;
+}
+
+.content {
+  margin-top: 10%;
+  max-width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.content h2 {
+  font-size: 60px;
+  animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #fff; }
+  50% { color: #190a5f; }
+  100% { color: #fff; }
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.icon-card {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-card:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
