@@ -5,7 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Office Bearers</title>
-  <link rel="stylesheet" href="officebearers.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Karla', sans-serif;
+    }
+    
+    body {
+      background-image: none;
+      background-color: #4a0139;
+      color: #fff;
+      margin: 0;
+    }
+    
+    .container {
+      max-width: 100%;
+      padding-top: 35px;
+      padding-left: 8%;
+      padding-right: 8%;
+      box-sizing: border-box;
+    }
+    
+    nav {
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo a {
+      font-size: 40px;
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    span {
+      color: #f9004d;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 10px 15px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      transition: 0.5s;
+    }
+    
+    nav ul li a:hover {
+      color: #1100f9;
+    }
+    
+    .content {
+      margin-top: 10%;
+      max-width: 100%;
+      padding-left: 8%;
+      padding-right: 8%;
+    }
+    
+    .content h2 {
+      font-size: 60px;
+    }
+    
+    .office-bearers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .office-bearer {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      width: calc(50% - 40px);
+      box-sizing: border-box;
+      text-align: center;
+    }
+    
+    .office-bearer img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    .office-bearer h3 {
+      margin-top: 20px;
+      color: #f9004d;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
